@@ -159,28 +159,107 @@ header{
 .single-service h2{
     margin: 10px 0;
     font-weight: bold;
+} 
+/*second section of main  tag code start */
+
+#second-section{
+    background-color: #154360;
+    padding: 50px 0 100px 0;
 }
 
-/* media query code start */
-@media only screen and (max-width: 688) {
+.smart-title{
+    text-align: center;
+    color: yellow;
+    font-size: 35px;
+    letter-spacing: 0. 2em;
+    margin-bottom: 30px;
+
+}
+
+
+
+#smart-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.smart-text{
+   color: white;
+}
+
+
+.smart-text h2{
+    margin: 20px 0;
+    font-size: 30px;
+}
+.smart-text a{
+    text-decoration: none;
+    font-size: 22px;
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 40px;
+   display: inline-block;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 688px) {
    #service-parent{
      display: grid;
      grid-template-columns: repeat(1, 1fr);
      grid-gap: 10px;
      width: 100%;
    }
+
+   #smart-parent{
+    display: block;
+    margin-left: 30px;
+    margin: 30px;
 }
 
-@media only screen and (min-width: 689px) and (max-width: 1099) {
+.smart-image img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+
+}
+
+@media only screen and (min-width: 689px) and (max-width: 1099px) {
     #service-parent{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 20px;
         width: 100%;
-
     }
+
+    #smart-parent{
+        display: block;
+        margin-left: 70px;
+        margin-right: 70px;
+    
+
 }
- 
+.smart-image img{
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+
+
+}  
+
+
 .service-title{
    font-size: 28px; 
    text-align: center;
