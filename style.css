@@ -441,3 +441,108 @@ header{
     margin: 10px 5px;
 }
 
+ /* finished advice section code */
+
+
+/* start Contact section work */
+
+form{
+    background-color: #2e357a; 
+    width: 90%;
+    padding: 40px 50px;
+   
+   
+ }
+
+
+
+/* contact section code start */
+
+#contact-section{
+    background-image: linear-gradient(#3958a25e, #4089c7), url("images/sohelrana.jpeg");
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+form{
+   background-color: #2e357a; 
+   width: 50%;
+   margin: 0 auto;
+   padding: 50px 60px;
+   border: 5px solid #449703;
+   border-radius: 10px;
+}
+
+form h2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+
+form p{
+    color: white;
+    text-align: center;
+    margin: 30px 0;
+    letter-spacing: 0.1em;
+
+
+}
+.form-input{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin: 50px 0;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    border-bottom: 3px solid #4497d3;
+    font-size: 18px;
+
+}
+.form-input::placeholder{
+    color: #4497d3;
+    font-size: 18px;
+    font-weight: bold;
+}
+.submit-btn{
+    display: block;
+    margin: 0 auto;
+    padding: 5px 40px;
+    font-size: 20px;
+    background: none;
+    color: white;
+    outline-style: ridge;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+.submit-btn:hover{
+    background-color: #16213e;
+}
+
+/* finished advice section code */
+
+
+/* start Contact section work */
+
+form{
+    background-color: #2e357a; 
+    width: 90%;
+    padding: 20px 30px;
+   
+   
+ }
+
+
+
+
+
+
+
